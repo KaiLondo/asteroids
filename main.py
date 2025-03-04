@@ -24,9 +24,7 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
         
-        # Render graphics
-        screen.fill((0, 0, 0))
-        
+    
         # update game state
         clock.tick(60)
         dt = clock.get_time()/1000.0
